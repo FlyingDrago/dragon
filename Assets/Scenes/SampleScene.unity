@@ -184,6 +184,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 355ee92c3448eb142a214133efa87490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1658026009 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 35295481734200405, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+  m_PrefabInstance: {fileID: 35295482223920197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1658026011 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 35295481734200407, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+  m_PrefabInstance: {fileID: 35295482223920197}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1794251657 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 326549718505157928, guid: 707958b11780ab04bbf4570e9e628da6, type: 3}
@@ -216,6 +226,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 35295481734200394, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1658026011}
+    - target: {fileID: 35295481734200394, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1658026009}
     - target: {fileID: 35295481734200395, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
       propertyPath: m_Name
       value: Player1
@@ -307,6 +325,22 @@ PrefabInstance:
     - target: {fileID: 35295481734200401, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 35295481734200404, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+      propertyPath: m_Size.x
+      value: 2.0521624
+      objectReference: {fileID: 0}
+    - target: {fileID: 35295481734200404, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+      propertyPath: m_Size.y
+      value: 2.5929766
+      objectReference: {fileID: 0}
+    - target: {fileID: 35295481734200404, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08326137
+      objectReference: {fileID: 0}
+    - target: {fileID: 35295481734200404, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.0387249
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97857970c9413ae45a0cead5d206a7e3, type: 3}
